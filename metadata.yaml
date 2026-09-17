@@ -1,5 +1,5 @@
 homepage: "https://stefanoghisoni.it"
 documentation: "https://github.com/stefanoghisoni-adv/utm_normalizer/blob/main/README.md"
 versions:
-  - sha: 015db306763ba257a0b28e60fbc180c4410fdec7
+  - sha: edab2e854118af852d6077fbc98b00201e8d6ec0
     changeNotes: "Initial release."
