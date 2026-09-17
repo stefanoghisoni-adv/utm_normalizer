@@ -1,5 +1,5 @@
 homepage: "https://stefanoghisoni.it"
-documentation: "REPLACE_WITH_GITHUB_README_URL"
+documentation: "https://github.com/stefanoghisoni-adv/utm_normalizer.git"
 versions:
   - sha: REPLACE_WITH_TEMPLATE_COMMIT_SHA
     changeNotes: "Initial release."
