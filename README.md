@@ -41,15 +41,15 @@ Unknown source values are preserved. If an unknown value is found in a configure
 
 ## Configuration
 
-### Page Location originale
+### Original Page Location
 
 Select the built-in `{{Page URL}}` variable, or another variable that returns the complete URL to transform.
 
-### Utilizzo una nomenclatura custom per gli UTM
+### Use custom UTM naming
 
 Enable this option when the source is stored in a parameter other than `utm_source`.
 
-In **Nome custom del parametro sorgente**, enter the parameter name only, without `?`, `&`, or `=`.
+In **Custom source parameter name**, enter the parameter name only, without `?`, `&`, or `=`.
 
 Example:
 
@@ -65,21 +65,21 @@ https://example.com/landing?data_src=fb&utm_medium=cpc
 
 the custom source parameter is renamed to `utm_source` and its value is normalized.
 
-### Piattaforma di destinazione
+### Destination platform
 
 Choose one of the available naming conventions:
 
 - **Google Analytics 4** — returns source names such as `facebook` and `instagram`.
 - **HubSpot** — returns `Meta` for recognized Meta source codes.
 
-### Altri UTM personalizzati
+### Additional custom UTMs
 
 Use the nested table to rename additional tracking parameters. Each row contains:
 
 | Field | Description | Example |
 |---|---|---|
-| Nome da identificare | Parameter name to find in the input URL | `utm_traffic` |
-| Nome di output | Standard parameter name to return | `utm_medium` |
+| Input parameter name | Parameter name to find in the input URL | `utm_traffic` |
+| Output parameter name | Standard parameter name to return | `utm_medium` |
 
 You can add multiple mappings, for example:
 
@@ -168,7 +168,7 @@ With `data_src` configured as the custom source, the output for Google Analytics
 https://example.com/?utm_source=facebook
 ```
 
-The same rule applies to rows in **Altri UTM personalizzati**: the mapped custom parameter replaces an existing destination parameter, and the output contains only one instance of that parameter.
+The same rule applies to rows in **Additional custom UTMs**: the mapped custom parameter replaces an existing destination parameter, and the output contains only one instance of that parameter.
 
 ## Using the returned value
 
