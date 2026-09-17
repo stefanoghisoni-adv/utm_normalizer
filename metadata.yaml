@@ -1,5 +1,5 @@
 homepage: "https://stefanoghisoni.it"
 documentation: "https://github.com/stefanoghisoni-adv/utm_normalizer.git"
 versions:
-  - sha: REPLACE_WITH_TEMPLATE_COMMIT_SHA
+  - sha: 015db306763ba257a0b28e60fbc180c4410fdec7
     changeNotes: "Initial release."
