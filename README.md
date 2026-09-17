@@ -1,6 +1,8 @@
-# UTM Source Normalizer for Google Tag Manager
+# UTM Normalizer for Google Tag Manager
 
 A custom variable template for **Google Tag Manager Web containers** that returns the complete Page Location while normalizing Meta source codes and renaming custom tracking parameters to standard UTM names.
+
+Unlike a source-only normalizer, the template can normalize the full UTM structure by mapping additional custom parameters—such as `utm_traffic`—to their standard equivalents, such as `utm_medium`.
 
 It is designed for campaigns that use Meta's `{{site_source_name}}` macro, which may generate values such as `fb`, `ig`, `msg`, `ws`, `th`, or `an`. These values can be translated into naming conventions suitable for **Google Analytics 4** or **HubSpot**.
 
@@ -35,7 +37,7 @@ Unknown source values are preserved. If an unknown value is found in a configure
 3. Go to **Templates**.
 4. In **Variable Templates**, click **Search Gallery** if the template is published in the Community Template Gallery, or click **New** and then **Import** to install it manually.
 5. Select `template.tpl`, review the requested permissions, and save the template.
-6. Create a new user-defined variable and choose **UTM Source Normalizer** as its type.
+6. Create a new user-defined variable and choose **UTM Normalizer** as its type.
 
 ## Configuration
 
